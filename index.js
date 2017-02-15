@@ -3,5 +3,7 @@
 jQuery.noConflict();
 
 //zySlide() 只要轮播图的跟标签（如何选择器）
-jQuery('.slide').zySlide({speed:1000});
+jQuery('.slide').zySlide({speed:1000}).css({
+	'backgroundColor':'#888888'
+});
 jQuery('#slide').zySlide({delay:3000,speed:6000,});
